@@ -13,7 +13,7 @@ echo "\n";
 
 
 $str_2 = "World";
-$vowels = array("a", "e", "i", "o", "u");
+$vowels = array("a", "e", "i", "o", "u", "A", "U", "I", "O", "U");
 $count = 0;
 for ($i = 0; $i < strlen($str_2); $i++) {
   if (in_array(strtolower($str_2[$i]), $vowels)) {
@@ -24,7 +24,7 @@ echo "Number of vowels in $str_2 is: $count";
 echo "\n";
 
 $str_3 = "PHP";
-$vowels = array("a", "e", "i", "o", "u");
+$vowels = array("a", "e", "i", "o", "u", "A", "U", "I", "O", "U");
 $count = 0;
 for ($i = 0; $i < strlen($str_3); $i++) {
   if (in_array(strtolower($str_3[$i]), $vowels)) {
@@ -35,7 +35,7 @@ echo "Number of vowels in $str_3 is: $count";
 echo "\n";
 
 $str_4 = "Programming";
-$vowels = array("a", "e", "i", "o", "u");
+$vowels = array("a", "e", "i", "o", "u", "A", "U", "I", "O", "U");
 $count = 0;
 for ($i = 0; $i < strlen($str_4); $i++) {
   if (in_array(strtolower($str_4[$i]), $vowels)) {
